@@ -1,0 +1,41 @@
+.clear_fix {
+    clear: both;
+}
+.width-site {
+    max-width: 1405px;
+    width: 100%;
+}
+.feedback {
+    background: #f7f8fa;
+    h3 {
+        @include text($color-black-0, $fs-3, $fw-bold);
+        padding-top: 20px;
+    }
+    .feedback__content {
+        .item {
+            padding: 25px;
+            padding-bottom: 40px;
+            background-color: white;
+            line-height: 1.5;
+            .content__top {
+                align-items: center;
+                padding-bottom: 20px;
+                .image {
+                    padding-right: 10px;
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                    }
+                }
+                .name {
+                    font-weight: bold;
+                    p {
+                        margin: 0 !important;
+                    }
+                }
+            }
+        }
+       
+    }
+}
